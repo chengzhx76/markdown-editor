@@ -1,0 +1,15 @@
+body {
+  background-color: #F9F9F5;
+}
+
+/* markdown 编辑器 */
+.CodeMirror {
+  background-color: #F9F9F5 !important;
+}
+.editor-preview {
+  background-color: #F9F9F5 !important;
+}
+
+.editor-toolbar.disabled-for-preview a:not(.no-disable) {
+  background-color: #F9F9F5 !important;
+}
