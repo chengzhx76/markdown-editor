@@ -1,15 +1,24 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #F9F9F5;
 }
 
 /* markdown 编辑器 */
 .CodeMirror {
   background-color: #F9F9F5 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
 }
-.editor-preview {
+.editor-preview, .editor-preview-side {
   background-color: #F9F9F5 !important;
 }
 
-.editor-toolbar.disabled-for-preview a:not(.no-disable) {
+.editor-toolbar .disabled-for-preview a:not(.no-disable) {
+  background-color: #F9F9F5 !important;
+}
+
+.editor-toolbar.fullscreen {
   background-color: #F9F9F5 !important;
 }

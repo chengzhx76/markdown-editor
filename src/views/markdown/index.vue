@@ -19,9 +19,15 @@
     created() {
     },
     mounted() {
-      this.mde = new SimpleMDE({ 
+      this.mde = new SimpleMDE({
+        renderingConfig: {
+            markedOptions: {
+                sanitize: true
+            }
+        },
         element: this.$refs.area,
-        spellChecker: false
+        spellChecker: false,
+        status: false
       })
       this.mde.value(this.value)
       // var self = this
