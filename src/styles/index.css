@@ -1,10 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #F9F9F5;
+  color: rgba(0,0,0,.75);
+  font-family: Lato,Helvetica Neue,Helvetica,sans-serif;
 }
-
-/* markdown 编辑器 */
+html, body{ 
+  height:100%;
+}
+/* 
+markdown 编辑器
 .CodeMirror {
   background-color: #F9F9F5 !important;
   border-left: 0 !important;
@@ -21,4 +25,5 @@ body {
 
 .editor-toolbar.fullscreen {
   background-color: #F9F9F5 !important;
-}
+} */
+

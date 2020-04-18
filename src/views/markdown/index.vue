@@ -7,6 +7,8 @@
 <script>
   // https://forum.vuejs.org/t/vue-2-and-simplemde/2707/7
   // https://github.com/F-loat/vue-simplemde/blob/HEAD/doc/configuration_zh.md
+  // https://segmentfault.com/a/1190000009469890
+  // https://github.com/sparksuite/simplemde-markdown-editor/issues/643
   import SimpleMDE from 'simplemde'
   export default {
     name: 'MarkDown',
